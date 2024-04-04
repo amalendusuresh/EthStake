@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Smart Contract Breakdown
 
 Inherits:
@@ -49,3 +50,7 @@ If deploying to a public testnet or mainnet, consider verifying your contract on
 Interact:
 
 Use Hardhat or other tools like Etherscan or a dApp interface to interact with your deployed contract.
+=======
+# EthStake
+Staking ETH to a BeneficiaryAccount
+>>>>>>> 7b2b3fd66808619cff74cbd3d41835225cccd794
