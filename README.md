@@ -14,9 +14,9 @@ The Ethereum Staking Smart Contract allows users to stake ETH tokens, which are 
 - Events: To log significant actions like staking and unstaking, facilitating easier off-chain tracking.
 
 ## Requirements
-Installed Node.js
-Installed Hardhat
-An Ethereum wallet with some ETH
+- Installed Node.js
+- Installed Hardhat
+- An Ethereum wallet with some ETH
 
 ## Steps
 Set Up Hardhat Project
