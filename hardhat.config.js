@@ -11,12 +11,12 @@ module.exports = {
   },
   networks: {
     sepolia: {
-      url: "https://sepolia.infura.io/v3/8a927723873c493fb9bfafa394c8091d",
-      accounts: ["e6e48815911df3fb56390a084da468c9e659819b367165c45589f508759947a5"]
+      url: "https://sepolia.infura.io/v3/",
+      accounts: [""]
     },
   },
   etherscan: {
-    apiKey: "QYDP5RX78QEF94BUWPKXZHZ7QZRVQIXF3H",
+    apiKey: "",
   },
   sourcify: {
     enabled: true
