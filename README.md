@@ -7,11 +7,11 @@ The Ethereum Staking Smart Contract allows users to stake ETH tokens, which are 
 - **Ownable:** Assigns contract ownership, enabling certain functions to be restricted to the owner.
 
 ## Key Features
-Staking: Users can stake ETH, which is immediately transferred to a beneficiary account.
-Unstaking: After a minimum period of 1 year, users can unstake, receiving their original ETH plus a 10% reward.
-Reward Calculation: A simple calculateReward function that returns 10% of the staked amount.
-Emergency Handling: Includes mechanisms to pause operations for safety or maintenance and a way for staked funds to be returned.
-Events: To log significant actions like staking and unstaking, facilitating easier off-chain tracking.
+- Staking: Users can stake ETH, which is immediately transferred to a beneficiary account.
+- Unstaking: After a minimum period of 1 year, users can unstake, receiving their original ETH plus a 10% reward.
+- Reward Calculation: A simple calculateReward function that returns 10% of the staked amount.
+- Emergency Handling: Includes mechanisms to pause operations for safety or maintenance and a way for staked funds to be returned.
+- Events: To log significant actions like staking and unstaking, facilitating easier off-chain tracking.
 
 ## Requirements
 Installed Node.js
