@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract ETHStaking is ReentrancyGuard, Pausable, Ownable(msg.sender) {
-    address payable constant beneficiaryAccount = payable(0xabbAE04c1a0C95ed3BFC40acbafd641b7d5ceC59);
+    address payable constant beneficiaryAccount = payable();
 
     struct Stake {
         uint256 amount;
