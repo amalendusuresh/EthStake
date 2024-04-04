@@ -3,7 +3,7 @@ const { ethers } = require("hardhat");
 
 async function main() {
   // Your contract's address here (replace it with the actual address where your contract is deployed)
-  const contractAddress = "0x63959335Ef3627537D8B4d7F50F3234d8a6D0846";
+  const contractAddress = "";
 
   // Fetch the Contract using Contract's ABI and Address
   const Contract = await ethers.getContractAt("ETHStaking", contractAddress);
