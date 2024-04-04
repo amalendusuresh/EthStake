@@ -2,9 +2,9 @@
 The Ethereum Staking Smart Contract allows users to stake ETH tokens, which are immediately transferred to a beneficiary account. After a minimum lock period of 1 year, users can unstake their tokens, receiving their original ETH amount plus a 10% reward. The contract includes features to prevent reentrancy attacks, pause operations for safety or maintenance, and restrict certain functions to the contract owner. Events are emitted to log significant actions like staking and unstaking, facilitating easier off-chain tracking.
 
 ## Inherits
-**ReentrancyGuard:** Prevents reentrancy attacks.
-**Pausable:** Allows the contract to be paused or unpaused, making functions inaccessible while paused.
-**Ownable:** Assigns contract ownership, enabling certain functions to be restricted to the owner.
+- **ReentrancyGuard:** Prevents reentrancy attacks.
+- **Pausable:** Allows the contract to be paused or unpaused, making functions inaccessible while paused.
+- **Ownable:** Assigns contract ownership, enabling certain functions to be restricted to the owner.
 
 ## Key Features
 Staking: Users can stake ETH, which is immediately transferred to a beneficiary account.
